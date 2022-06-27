@@ -10,11 +10,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="licenses.licx" />
+    <None Remove="dll.licenses" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="licenses.licx" />
+    <EmbeddedResource Include="dll.licenses" />
   </ItemGroup>
 
   <ItemGroup>
