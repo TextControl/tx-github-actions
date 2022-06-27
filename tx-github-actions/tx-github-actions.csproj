@@ -70,6 +70,12 @@
     <None Update="txkernel.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="TXTextControl.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TXTextControl.Server.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="txtools.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
