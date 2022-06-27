@@ -6,12 +6,16 @@
 	  <EnableUnsafeBinaryFormatterSerialization>true</EnableUnsafeBinaryFormatterSerialization>
 	  <EnableUnsafeBinaryFormatterInDesigntimeLicenseContextSerialization>true</EnableUnsafeBinaryFormatterInDesigntimeLicenseContextSerialization>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>tx_github_actions</RootNamespace>
+    <RootNamespace>tx-github-actions</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="dll.licenses" />
     <None Remove="licenses.licx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="dll.licenses" />
   </ItemGroup>
 
   <ItemGroup>
