@@ -11,10 +11,11 @@
 
   <ItemGroup>
     <None Remove="dll.licenses" />
+    <None Remove="licenses.licx" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="dll.licenses" />
+    <EmbeddedResource Include="licenses.licx" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,18 +25,23 @@
   <ItemGroup>
     <Reference Include="txic">
       <HintPath>..\..\..\..\..\..\Program Files\Text Control GmbH\TX Text Control 30.0.NET Server for ASP.NET\Assembly\bin64\txic.dll</HintPath>
+      <CopyLocal>True</CopyLocal>
     </Reference>
     <Reference Include="txkernel">
       <HintPath>..\..\..\..\..\..\Program Files\Text Control GmbH\TX Text Control 30.0.NET Server for ASP.NET\Assembly\bin64\txkernel.dll</HintPath>
+      <CopyLocal>True</CopyLocal>
     </Reference>
     <Reference Include="TXTextControl">
       <HintPath>..\..\..\..\..\..\Program Files\Text Control GmbH\TX Text Control 30.0.NET Server for ASP.NET\Assembly\TXTextControl.dll</HintPath>
+      <CopyLocal>True</CopyLocal>
     </Reference>
     <Reference Include="TXTextControl.Server">
       <HintPath>..\..\..\..\..\..\Program Files\Text Control GmbH\TX Text Control 30.0.NET Server for ASP.NET\Assembly\TXTextControl.Server.dll</HintPath>
+      <CopyLocal>True</CopyLocal>
     </Reference>
     <Reference Include="txtools">
       <HintPath>..\..\..\..\..\..\Program Files\Text Control GmbH\TX Text Control 30.0.NET Server for ASP.NET\Assembly\bin64\txtools.dll</HintPath>
+      <CopyLocal>True</CopyLocal>
     </Reference>
   </ItemGroup>
 
@@ -64,19 +70,7 @@
     <None Update="tx30_xml.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="txic.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="txkernel.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Update="TXTextControl.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="TXTextControl.Server.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="txtools.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
